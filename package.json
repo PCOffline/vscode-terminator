@@ -112,6 +112,13 @@
 									"items": {
 										"type":"string"
 									}
+								},
+								"parameters": {
+									"type": "array",
+									"description": "Arguments for custom shell that will always be prompted upon launch",
+									"items": {
+										"type": "string"
+									}
 								}
 							}
 						}
